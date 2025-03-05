@@ -3,7 +3,7 @@ const cors = require('cors');
 const userRoutes = require('./routes/UserRoutes');
 const productRoutes = require('./routes/productsRoutes');
 const stripe =require("stripe")(
-    "sk_test_51QKkoAEFkjYi4pbxUXAB6Klh3vnFDo350H0e8T0p38d6jggNxadrD3Umnp8tBteKk1l4o650BLdSIjv2SSe94qct00ToNfploM"
+   "Test key"
 )
 const Order = require('./models/OrdersModel')
 
